@@ -1,0 +1,35 @@
+.modalLogin{
+    width: 600px;
+    height: 600px;
+    background-color: whitesmoke;
+}
+
+.modalLogin h1{
+    text-align: center;
+    color: orange;
+    padding: 60px 0;
+}
+
+.namePlace{
+    width: 50%;
+    padding: 20px;
+}
+
+.contactUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coBut{
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+button{
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid orange;
+    color: orange;
+    padding: 10px;
+}

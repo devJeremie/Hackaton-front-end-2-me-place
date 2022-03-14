@@ -1,0 +1,54 @@
+/*carCarl*/
+.card img{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    border: 3px solid rgb(66, 143, 167);
+}
+
+.card{
+    border: none;
+}
+
+.cardTop{
+    display: flex;
+}
+
+.card{
+    background-color: whitesmoke;
+}
+
+.cardTop h5{
+    margin: 10px;
+    margin-left: 15px;
+    position: relative;
+}
+
+.cardTop h5::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 70%;
+    height: 1px;
+    background-color: rgb(66, 143, 167);
+
+}
+/*
+.lineBottom{
+    width: 100px;
+    border: 1px solid rgb(66, 143, 167);
+}*/
+.fa-quote-left{
+    color: rgb(66, 143, 167);
+}
+
+.fa-quote-right{
+    color: rgb(66, 143, 167);
+}
+
+.fa-ditto{
+    color: rgb(66, 143, 167);
+}
+
+
